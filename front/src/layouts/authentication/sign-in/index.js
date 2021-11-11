@@ -53,7 +53,7 @@ function SignIn() {
        localStorage.setItem('user', email);
        localStorage.setItem('id', res.data.user.id);
        localStorage.setItem('firstname', res.data.user.first_name)
-       localStorage.setItem('lastname', res.data.user.last_name)
+       localStorage.setItem('number', res.data.user.last_name)
        ls.setToken(res.data.token);
        ls.setUser(res.data.user.id, res.data.user.username, res.data.user.first_name,res.data.user.last_name);
        ls.userHasAuthenticated(true);

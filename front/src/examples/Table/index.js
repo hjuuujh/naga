@@ -73,7 +73,7 @@ function Table({ columns, rows }) {
       </SuiBox>
     );
   });
-
+console.log("$$$$",rows)
   const renderRows = rows.map((row, key) => {
     const rowKey = `row-${key}`;
 

@@ -49,7 +49,7 @@ function SignUp() {
     let first_name = name
     let last_name = number
     let email =e_mail
-
+    console.log(username)
     axios.post('http://localhost:8000/user/',{
             username,
             password,
@@ -85,17 +85,20 @@ function SignUp() {
         <SuiBox pt={2} pb={3} px={3}>
           <SuiBox component="form" role="form">
             <SuiBox mb={2}>
-              <SuiInput placeholder="Name" onChange={(e)=>setName(e.target.value)}/>
-            </SuiBox>
-            <SuiBox mb={2}>
-              <SuiInput placeholder="Number" onChange={(e)=>setNumber(e.target.value)}/>
-            </SuiBox>
-            <SuiBox mb={2}>
               <SuiInput type="email" placeholder="Email" onChange={(e)=>setEmail(e.target.value)}/>
             </SuiBox>
             <SuiBox mb={2}>
               <SuiInput type="password" placeholder="Password" onChange={(e)=>setPw(e.target.value)}/>
             </SuiBox>
+            <SuiBox mb={2}>
+              <SuiInput placeholder="Number" onChange={(e)=>setNumber(e.target.value)}/>
+            </SuiBox>
+            <SuiBox mb={2}>
+              <SuiInput placeholder="Name" onChange={(e)=>setName(e.target.value)}/>
+            </SuiBox>
+            
+            
+            
             <SuiBox display="flex" alignItems="center">
               <Checkbox checked={agreement} onChange={handleSetAgremment} />
               <SuiTypography
@@ -111,13 +114,11 @@ function SignUp() {
               </SuiTypography>
             </SuiBox>
             <SuiBox mt={4} mb={1}>
-            <Link to={{
-              pathname: `/dashboard`,
-            }}>
+            {/* <Link to={{ pathname: `/dashboard`,  }}> */}
               <SuiButton variant="gradient" buttonColor="dark" fullWidth onClick={()=>postRegisterInfo()}>
                 sign up
               </SuiButton>
-              </Link>
+              {/* </Link> */}
             </SuiBox>
             <SuiBox mt={3} textAlign="center">
               <SuiTypography variant="button" textColor="text" fontWeight="regular">

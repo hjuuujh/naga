@@ -53,4 +53,5 @@ class LoginStore{
         localStorage.removeItem('email');
     }//로그아웃
 }
+
 export default new LoginStore();

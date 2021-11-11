@@ -31,12 +31,44 @@ import styles from "layouts/tables/styles";
 
 // Data
 import authorsTableData from "layouts/tables/data/authorsTableData";
-import projectsTableData from "layouts/tables/data/projectsTableData";
+import { useEffect } from 'react';
+import VideoStore from "store/VideoStore";
+
+function row(datas) {
+  
+  VideoStore.videos.map((v) => (
+    console.log(v.split("/"))
+  ));
+}
 
 function Tables() {
   const classes = styles();
-  const { columns, rows } = authorsTableData;
-  const { columns: prCols, rows: prRows } = projectsTableData;
+  const { columns } = authorsTableData;
+  const data = VideoStore.videos;
+  console.log(data)
+  const vs = VideoStore;
+  let rows = vs.videos;
+
+  useEffect(() => {
+    vs.selectAll();
+    // VideoStore.videos.map((v) => {
+    //   let d = v.split("/");
+    //   let name = d[1];
+    //   // console.log(d.length);
+    //   let a = d[d.length-1].split("_");
+    //   // console.log(a);
+    //   let t = a[1].slice(0, a[1].length-4);
+    //   // console.log(t);
+    //   console.log(d[1], a[0], t);
+    //   rows.push({
+    //     name:d[1],
+    //     start:a[0],
+    //     end:t,
+    //     view:"View"
+    //   })
+    // });
+    // console.log(rows);
+  },[]);
 
   return (
     <DashboardLayout>
@@ -45,21 +77,14 @@ function Tables() {
         <SuiBox mb={3}>
           <Card>
             <SuiBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
-              <SuiTypography variant="h6">Authors table</SuiTypography>
+              <SuiTypography variant="h6">Videos table</SuiTypography>
             </SuiBox>
             <SuiBox customClass={classes.tables_table}>
               <Table columns={columns} rows={rows} />
             </SuiBox>
           </Card>
         </SuiBox>
-        <Card>
-          <SuiBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
-            <SuiTypography variant="h6">Projects table</SuiTypography>
-          </SuiBox>
-          <SuiBox customClass={classes.tables_table}>
-            <Table columns={prCols} rows={prRows} />
-          </SuiBox>
-        </Card>
+        
       </SuiBox>
       <Footer />
     </DashboardLayout>

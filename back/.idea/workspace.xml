@@ -1,227 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a78d4891-547f-4db7-9324-03d0806a9e64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/.idea/project_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/.idea/back.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/back/vp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/_redirects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/icons/ic_flag_de.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/icons/ic_flag_en.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/icons/ic_flag_fr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/icons/ic_notification_chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/icons/ic_notification_mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/icons/ic_notification_package.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/icons/ic_notification_shipping.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/icons/shape-avatar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/illustrations/illustration_404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/illustrations/illustration_avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/illustrations/illustration_login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/illustrations/illustration_register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/avatars/avatar_default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/covers/cover_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/mock-images/products/product_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/public/static/preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/_mocks_/account.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/_mocks_/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/_mocks_/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/_mocks_/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/@material-extend/MHidden.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/@material-extend/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/ColorManyPicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/ColorPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/Label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/Logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/MenuPopover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/NavSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/Page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/ScrollToTop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/Scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/SearchNotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/SvgIconStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/_dashboard/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/_dashboard/products/ProductCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/_dashboard/products/ProductList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/_dashboard/products/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/_dashboard/user/RoomModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/_dashboard/user/RoomReservationCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/_dashboard/user/RoomReservationList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/_dashboard/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/animate/MotionContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/animate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/animate/variants/Wrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/animate/variants/bounce/BounceIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/animate/variants/bounce/BounceOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/animate/variants/bounce/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/animate/variants/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/authentication/AuthSocial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/authentication/login/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/authentication/login/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/authentication/register/RegisterForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/authentication/register/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/charts/BaseOptionChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/components/charts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/AuthLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/LogoOnlyLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/dashboard/AccountPopover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/dashboard/DashboardNavbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/dashboard/DashboardSidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/dashboard/LanguagePopover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/dashboard/NotificationsPopover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/dashboard/Searchbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/dashboard/SidebarConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/layouts/dashboard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/pages/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/pages/DashboardApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/pages/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/pages/Page404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/pages/Products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/pages/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/pages/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/setupProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/store/RoomReserveStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/breakpoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/globalStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Backdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/IconButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Lists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Paper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/Typography.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/overrides/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/palette.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/shadows.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/shape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/theme/typography.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/utils/formatNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/utils/formatTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../react/Vaccine_Pass/front/src/utils/mockImages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../studycheck" beforeDir="false" />
+    <list default="true" id="4e5fb260-5cf1-4f43-812a-8b508abe9aea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naga/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/naga/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/examples/Table/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/examples/Table/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/layouts/authentication/sign-in/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/authentication/sign-in/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/layouts/authentication/sign-up/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/authentication/sign-up/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/layouts/tables/data/authorsTableData.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/tables/data/authorsTableData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/layouts/tables/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/tables/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/store/LoginStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/store/LoginStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="20iAYhrbGrXSN8qoxFGgBk9ZznW" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20l4nh9p4P4B2Qjt4WF6jjGAppJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -231,21 +43,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../react/Vaccine_Pass/back" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/naga" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a78d4891-547f-4db7-9324-03d0806a9e64" name="Default Changelist" comment="" />
-      <created>1636517085172</created>
+      <changelist id="4e5fb260-5cf1-4f43-812a-8b508abe9aea" name="Default Changelist" comment="" />
+      <created>1636606008420</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1636517085172</updated>
+      <updated>1636606008420</updated>
     </task>
     <servers />
   </component>

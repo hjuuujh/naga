@@ -27,4 +27,5 @@ urlpatterns = [
     path('refresh/', refresh_jwt_token),
 
     path('user/', include('user.urls')),
+    path('naga/', include('naga.urls')),
 ]
