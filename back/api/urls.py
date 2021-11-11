@@ -28,4 +28,7 @@ urlpatterns = [
 
     path('user/', include('user.urls')),
     path('naga/', include('naga.urls')),
+    # iot
+    path('kakao/', include('kakao.urls')),
+    path('sensor/', include('sensor.urls')),
 ]
