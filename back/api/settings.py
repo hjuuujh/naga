@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import datetime
 import os
+from config import SECRET_KEY, USER, PASSWORD, HOST
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-6an5_hgw-uxavih58z61i*+!vrvdms6fu5tr9=ovh!9zr=joub'
+SECRET_KEY = SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -98,9 +99,9 @@ DATABASES = {
         # 'NAME': BASE_DIR / 'db.sqlite3',
         "ENGINE": "django.db.backends.mysql",
         "NAME": "nagadb",
-        "USER": "root",
-        "PASSWORD": "1234",
-        "HOST": "13.208.69.254",
+        "USER": "USER",
+        "PASSWORD": "PASSWORD",
+        "HOST": "HOST",
         "PORT": "3306",
     }
 }
