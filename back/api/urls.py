@@ -27,4 +27,7 @@ urlpatterns = [
     path('refresh/', refresh_jwt_token),
 
     path('user/', include('user.urls')),
+
+    # iot
+    path('kakao/', include('kakao.urls')),
 ]
