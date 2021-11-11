@@ -562,3 +562,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/django,visualstudiocode,linux,python,pycharm,virtualenv,node,react,macos,windows
+
+./back/config.py
