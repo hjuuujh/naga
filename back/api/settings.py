@@ -49,7 +49,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'naga',
-    'user'
+    'user',
+
+    # iot
+    'kakao',
+    'sensor',
 ]
 
 MIDDLEWARE = [
