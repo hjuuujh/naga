@@ -30,4 +30,5 @@ urlpatterns = [
 
     # iot
     path('kakao/', include('kakao.urls')),
+    path('sensor/', include('sensor.urls')),
 ]

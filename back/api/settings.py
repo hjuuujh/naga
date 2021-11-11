@@ -53,6 +53,7 @@ INSTALLED_APPS = [
 
     # iot
     'kakao',
+    'sensor',
 ]
 
 MIDDLEWARE = [
