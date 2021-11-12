@@ -99,9 +99,9 @@ DATABASES = {
         # 'NAME': BASE_DIR / 'db.sqlite3',
         "ENGINE": "django.db.backends.mysql",
         "NAME": "nagadb",
-        "USER": "USER",
-        "PASSWORD": "PASSWORD",
-        "HOST": "HOST",
+        "USER": USER,
+        "PASSWORD": PASSWORD,
+        "HOST": HOST,
         "PORT": "3306",
     }
 }
