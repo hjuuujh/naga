@@ -56,11 +56,11 @@ SuiButton.propTypes = {
 */
 
 function Alert() {
-  const [email, setEmail] = useState();
+  const [msg, setMsg] = useState();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.get('http://192.168.117.24:8000/api/announce?message=' + email);
+    axios.get('http://192.168.117.24:8000/api/announce?message=' + msg);
   }
 
   return (
@@ -74,7 +74,7 @@ function Alert() {
               방송 메시지
             </SuiTypography>
           </SuiBox>
-          <SuiInput type="email" placeholder="메시지" onChange={(e)=>setEmail(e.target.value)}/>
+          <SuiInput type="text" placeholder="메시지" onChange={(e)=>setMsg(e.target.value)}/>
         </SuiBox>
         <SuiBox mt={4} mb={1}>
           <SuiButton variant="gradient" buttonColor="info" fullWidth onClick={(e)=>handleSubmit(e)}>
