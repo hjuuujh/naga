@@ -50,24 +50,11 @@ function Tables() {
   let rows = vs.videos;
 
   useEffect(() => {
-    vs.selectAll();
-    // VideoStore.videos.map((v) => {
-    //   let d = v.split("/");
-    //   let name = d[1];
-    //   // console.log(d.length);
-    //   let a = d[d.length-1].split("_");
-    //   // console.log(a);
-    //   let t = a[1].slice(0, a[1].length-4);
-    //   // console.log(t);
-    //   console.log(d[1], a[0], t);
-    //   rows.push({
-    //     name:d[1],
-    //     start:a[0],
-    //     end:t,
-    //     view:"View"
-    //   })
-    // });
-    // console.log(rows);
+    // vs.selectAll();
+    console.log(localStorage.getItem('id'));
+    if (localStorage.getItem('id') == null){
+      console.log('id is null');
+    }
   },[]);
 
   return (

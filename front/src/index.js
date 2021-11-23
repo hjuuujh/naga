@@ -17,7 +17,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "App";
-
+import axios from 'axios';
 // Soft UI Dashboard React Context Provider
 import { SoftUIControllerProvider } from "context";
 
@@ -29,3 +29,5 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
+axios.defaults.xsrfCookieName = 'csrftoken';
+axios.defaults.xsrfHeaderName = 'X-CSRFTOKEN';

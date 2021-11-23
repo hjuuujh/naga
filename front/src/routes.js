@@ -71,7 +71,7 @@ const routes = [
     type: "collapse",
     name: "Tables",
     key: "tables",
-    route: "/tables",
+    route: "/tables/"+localStorage.getItem('id'),
     icon: <Office size="12px" />,
     component: Tables,
     noCollapse: true,
@@ -115,7 +115,7 @@ const routes = [
   { type: "title", title: "Account Pages", key: "account-pages" },
   {
     type: "collapse",
-    name: "Profile",
+    name: "Log Out",
     key: "profile",
     route: "/profile",
     icon: <CustomerSupport size="12px" />,

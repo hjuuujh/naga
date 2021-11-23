@@ -32,37 +32,14 @@ import CoverLayout from "layouts/authentication/components/CoverLayout";
 
 // Images
 import curved9 from "assets/images/curved-images/curved-6.jpg";
-import axios from 'axios';
-import LoginStore from "store/LoginStore";
+import UserApi from "api/UserApi";
 
 function SignIn() {
   const [rememberMe, setRememberMe] = useState(true);
-  const ls = LoginStore;
   const [email, setEmail] = useState();
   const [pw, setPw] = useState();
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
-  const handleSubmit = (event) => {
-    console.log(email, pw);
-    axios.post('http://localhost:8000/login/',{
-        username: email,
-        password: pw
-    }).then(function (res){
-      localStorage.setItem('token', res.data.token);
-      console.log(res)
-
-       localStorage.setItem('user', email);
-       localStorage.setItem('id', res.data.user.id);
-       localStorage.setItem('firstname', res.data.user.first_name)
-       localStorage.setItem('number', res.data.user.last_name)
-       ls.setToken(res.data.token);
-       ls.setUser(res.data.user.id, res.data.user.username, res.data.user.first_name,res.data.user.last_name);
-       ls.userHasAuthenticated(true);
-       }).catch(function (err){
-        console.log(err)
-        alert("아이디와 비밀번호를 확인하세요");
-    })
-    event.preventDefault();
-}
+  
   return (
     <CoverLayout
       title="Welcome back"
@@ -98,7 +75,7 @@ function SignIn() {
           </SuiTypography>
         </SuiBox>
         <SuiBox mt={4} mb={1}>
-          <SuiButton variant="gradient" buttonColor="info" fullWidth onClick={(e)=>handleSubmit(e)}>
+          <SuiButton variant="gradient" buttonColor="info" fullWidth onClick={(e)=>UserApi.handleSubmit(e,email,pw)}>
             sign in
           </SuiButton>
         </SuiBox>
