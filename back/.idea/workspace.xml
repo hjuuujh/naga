@@ -4,8 +4,23 @@
     <list default="true" id="4e5fb260-5cf1-4f43-812a-8b508abe9aea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kakao/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kakao/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kakao/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/kakao/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naga/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/naga/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naga/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/naga/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naga/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/naga/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naga/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/naga/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/api/VideoApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/layouts/authentication/sign-in/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/authentication/sign-in/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/layouts/authentication/sign-up/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/authentication/sign-up/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/layouts/profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/profile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/layouts/tables/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/tables/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/store/LoginStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/store/LoginStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/store/VideoStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/store/VideoStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../front/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +52,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/naga" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -29,9 +29,10 @@ class UserList(APIView):
         serializer = UserSerializerWithToken(data=request.data)
         if serializer.is_valid():
             serializer.save()
-            s3 = s3_connection()
+            # s3 = s3_connection()
             # print(serializer.data['id'])
-            s3.put_object(Bucket=BUCKET_NAME, Key=str(serializer.data['id'])+'/')
+            # s3.put_object(Bucket=BUCKET_NAME, Key=str(serializer.data['id'])+'/', ACL='public-read')
 
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        # return Response({"message": "Success!"})

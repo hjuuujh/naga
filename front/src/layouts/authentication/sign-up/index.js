@@ -35,38 +35,29 @@ import Separator from "layouts/authentication/components/Separator";
 import axios from 'axios';
 // Images
 import curved6 from "assets/images/curved-images/curved14.jpg";
+import LoginStore from "store/LoginStore";
+import CameraModal from "./CameraModal";
+import UserApi from "api/UserApi";
 
 function SignUp() {
-
+  const ls = LoginStore;
   const [agreement, setAgremment] = useState(true);
   const [name, setName] = useState();
   const [number, setNumber] = useState();
   const [e_mail, setEmail] = useState();
   const [pw, setPw] = useState();
-  const postRegisterInfo = () => {
-    let username = e_mail
-    let password = pw
-    let first_name = name
-    let last_name = number
-    let email =e_mail
-    console.log(username)
-    axios.post('http://localhost:8000/user/',{
-            username,
-            password,
-            first_name,
-            last_name,
-            email,
-        }).then(function (res){
-            console.log(res)
+  const [shop, setShop] = useState();
+  const [camera, setCamera] = useState();
 
-        }).catch(function (err){
-            console.log(err)
-            alert("사용불가능한 아이디입니다.")
-        })
+
+  const postRegisterInfo = () => {
+    let n = '+82' + String(number.substring(1,11));
+    UserApi.createUser(e_mail, pw, name, n, e_mail, shop, camera);
   }
   const handleSetAgremment = () => setAgremment(!agreement);
 
   return (
+    <>
     <BasicLayout
       title="Welcome!"
       description="Use these awesome forms to login or create new account in your project for free."
@@ -95,6 +86,12 @@ function SignUp() {
             </SuiBox>
             <SuiBox mb={2}>
               <SuiInput placeholder="Name" onChange={(e)=>setName(e.target.value)}/>
+            </SuiBox>
+            <SuiBox mb={2}>
+              <SuiInput placeholder="Shop" onChange={(e)=>setShop(e.target.value)}/>
+            </SuiBox>
+            <SuiBox mb={2}>
+              <SuiInput placeholder="Camera" onChange={(e)=>setCamera(e.target.value)}/>
             </SuiBox>
             
             
@@ -139,6 +136,8 @@ function SignUp() {
         </SuiBox>
       </Card>
     </BasicLayout>
+    {/* <CameraModal /> */}
+    </>
   );
 }
 

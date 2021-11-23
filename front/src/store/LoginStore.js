@@ -6,20 +6,21 @@ import { Link as  useNavigate, Navigate } from 'react-router-dom';
 class LoginStore{
     id = '';
     email ='';
+    number = '';
+    camera='';
     firstName = '';
     lastName = '';
     token = '';
     isAuthenticated=localStorage.getItem('token')? true : false;
+    modalOpen = false;
 
     constructor() {
         makeAutoObservable(this, {}, { autoBind: true });
     }
 
-    setUser(id, email,firstName, lastName ){
+    setUser(id, number ){
         this.id = id;
-        this.email = email;
-        this.firstName = firstName;
-        this.lastName = lastName;
+        this.number = number;
     }
     
     setToken(token){
@@ -52,6 +53,12 @@ class LoginStore{
         localStorage.removeItem('lastname');
         localStorage.removeItem('email');
     }//로그아웃
+
+    setModalOpen(isOpen){
+        this.modalOpen = isOpen;
+      }
+
+      
 }
 
 export default new LoginStore();
