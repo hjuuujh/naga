@@ -36,6 +36,7 @@ Coded by www.creative-tim.com
 */
 
 // Soft UI Dashboard React layouts
+import Alert from "layouts/alert";
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
@@ -54,6 +55,7 @@ import SpaceShip from "examples/Icons/SpaceShip";
 import CustomerSupport from "examples/Icons/CustomerSupport";
 import CreditCard from "examples/Icons/CreditCard";
 import Cube from "examples/Icons/Cube";
+import Campaign from "examples/Icons/Campaign";
 
 const routes = [
   {
@@ -99,6 +101,15 @@ const routes = [
     route: "/rtl",
     icon: <Settings size="12px" />,
     component: RTL,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Alert",
+    key: "alert",
+    route: "/alert",
+    icon: <Campaign size="20px" />,
+    component: Alert,
     noCollapse: true,
   },
   { type: "title", title: "Account Pages", key: "account-pages" },
